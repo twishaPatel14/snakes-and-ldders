@@ -59,27 +59,30 @@ function checkForBlueUpsAndDowns(){
   }
 
   if(blueSpaces === 13){
-    Matter.Body.setVelocity(bluePiece.body, {x: -6, y: -20});
+    Matter.Body.setVelocity(bluePiece.body, {x: -14, y: -20});
     blueSpaces = 46;
   }
 
   if(blueSpaces ===33){
-    Matter.Body.setVelocity(bluePiece.body, {x: 9, y: -30});
+    Matter.Body.setVelocity(bluePiece.body, {x: 7, y: -6});
     blueSpaces = 49;
   }
 
   if(blueSpaces === 42){
-    Matter.Body.setVelocity(bluePiece.body, {x: 7, y: -26});
+    Matter.Body.setVelocity(bluePiece.body, {x: 5, y: -13});
     blueSpaces = 63;
   }
-
   if(blueSpaces === 50){
-    Matter.Body.setVelocity(bluePiece.body, {x: 7, y: -13});
+    Matter.Body.setVelocity(bluePiece.body, {x: -5, y:5});
     blueSpaces = 69;
+  }
+  if(blueSpaces === 62){
+    Matter.Body.setVelocity(bluePiece.body, {x: -3, y: -15});
+    blueSpaces = 81;
   }
 
   if(blueSpaces === 74){
-    Matter.Body.setVelocity(bluePiece.body, {x: 0, y: -13});
+    Matter.Body.setVelocity(bluePiece.body, {x: 3, y: -13});
     blueSpaces = 92;
   }
 
@@ -87,38 +90,42 @@ function checkForBlueUpsAndDowns(){
 
   //snakes
   if(blueSpaces === 43){
-    Matter.Body.setVelocity(bluePiece.body, {x: 7, y: 20});
-    blueSpaces = 17;
+    Matter.Body.setVelocity(bluePiece.body, {x:2, y: 20});
+   blueSpaces = 18;
   }
 
-  if(blueSpaces === 50){
-    Matter.Body.setVelocity(bluePiece.body, {x: -32, y: 26});
+  if(blueSpaces === 27){
+    Matter.Body.setVelocity(bluePiece.body, {x: -12, y: 13});
     blueSpaces = 5;
   }
 
-  if(blueSpaces === 56){
-    Matter.Body.setVelocity(bluePiece.body, {x: 20, y: 33});
-    blueSpaces = 8;
+  if(blueSpaces === 40){
+    Matter.Body.setVelocity(bluePiece.body, {x:12, y:20});
+    blueSpaces = 3;
   }
 
-  if(blueSpaces === 73){
-    Matter.Body.setVelocity(bluePiece.body, {x: -13, y: 38});
-    blueSpaces = 15;
+  if(blueSpaces === 54){
+    Matter.Body.setVelocity(bluePiece.body, {x: -5, y: 1});
+    blueSpaces = 31;
   }
 
-  if(blueSpaces === 87){
-    Matter.Body.setVelocity(bluePiece.body, {x: 12, y: 26});
-    blueSpaces = 49;
+  if(blueSpaces === 66){
+    Matter.Body.setVelocity(bluePiece.body, {x:7, y: 26});
+    blueSpaces = 45;
   }
 
-  if(blueSpaces === 84){
-    Matter.Body.setVelocity(bluePiece.body, {x: -7, y: 13});
-    blueSpaces = 63;
+  if(blueSpaces === 76){
+    Matter.Body.setVelocity(bluePiece.body, {x: -5, y: 8});
+    blueSpaces = 58;
   }
 
-  if(blueSpaces === 98){
+  if(blueSpaces === 89){
+    Matter.Body.setVelocity(bluePiece.body, {x: -14, y: 30});
+    blueSpaces = 53;
+  }
+  if(blueSpaces === 99){
     Matter.Body.setVelocity(bluePiece.body, {x: -14, y: 39});
-    blueSpaces = 40;
+    blueSpaces = 41;
   }
 }
 
